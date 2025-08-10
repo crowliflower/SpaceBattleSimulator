@@ -18,17 +18,22 @@ function App() {
 
   const [gameState, setGameState] = useState(INITIAL_STATE);
 
+  constant 
+
+
   return (
     <>
       <div className='Screen'>
         <h2>Space Battle Simulator</h2>
-        <Initialize />
+        <button className=''></button>
         <Player />
         <button className='fire' onClick={Attack}>
 
         </button>
         <Enemy />
         <BattleLog />
+
+
 
       </div>
     </>
